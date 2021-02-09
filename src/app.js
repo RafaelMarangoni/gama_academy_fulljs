@@ -3,10 +3,14 @@ import Utils from '../src/service/Utils'
 //Imports 
 import Home from './views/pages/Home'
 import Error404 from './views/pages/Error'
+import Login from './views/pages/Login'
+import DashBoard from './views/pages/DashBoard'
 
 //routes
 let routes = {
-    '/' : Home 
+    '/' : Home,
+    '/login' : Login,
+    '/dashboard': DashBoard
 }
 
 const router = async () => {
